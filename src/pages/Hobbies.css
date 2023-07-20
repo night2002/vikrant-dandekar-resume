@@ -1,0 +1,65 @@
+.container-list{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+
+    font-size: x-large;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: fit-content;
+    margin-bottom: 1.5rem;
+    outline: 2px solid black;
+
+}
+.Hobbies-bg{
+    background-color: rgb(8, 146, 248);
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    margin-top: -2rem;
+    margin-bottom: -1.4rem;
+}
+.Hobbies-container{
+    padding: 0rem 5rem 5rem;
+}
+.anime-title{
+    font-smooth: auto;
+    text-shadow:1px 1px 1px rgb(4, 209, 216), 2px 2px 1px rgb(0, 64, 255);
+    color: #000000;
+    font-family: 'Trocchi', serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+.details{
+    font-size: x-large;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: fit-content;
+    margin-bottom: 1.5rem;
+    outline: 2px solid black;
+}
+.p_hobbies{
+    font-size: x-large;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: fit-content;
+    margin-bottom: 1.5rem;
+    outline: 2px solid black;
+}
+.iframe{
+    outline: none;
+    border: 2px solid #000000;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background-color: #FFF;
+}
