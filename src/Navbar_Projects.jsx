@@ -6,6 +6,7 @@ export default function Navbar_Projects(){
             <ul>
                 <Link to="Animewatchlist">Anime-watchlist</Link>
                 <Link to="BudgetTracker">Budget-Tracker</Link>
+                <Link to ="springboot">Springboot + MongoDB</Link>
             </ul>
         </nav>
     )

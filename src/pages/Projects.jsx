@@ -2,6 +2,7 @@
 import { Link,Route,Routes, useLocation } from "react-router-dom"
 import Animewatchlist from "./Animewatchlist"
 import BudgetTracker from "./BudgetTracker"
+import SpringBoot from "./springboot"
 import Navbar_Projects from "../Navbar_Projects"
 export default function Projects(){
     const location=useLocation();
@@ -69,6 +70,7 @@ export default function Projects(){
                 <Routes>
                     <Route path="/vikrant-dandekar-resume/academics/Projects/Animewatchlist" element={<Animewatchlist/>} />
                     <Route path="/vikrant-dandekar-resume/academics/Projects/BudgetTracker" element={<BudgetTracker/>} />
+                    <Route path="/vikrant-dandekar-resume/academics/Projects/springboot" element={<SpringBoot/>} />
                 </Routes>
             </div>
             <div className="bg_Acadmics">
@@ -98,6 +100,11 @@ export default function Projects(){
                         <td><a href="https://night2002.github.io/budget-tracker/">https://night2002.github.io/budget-tracker/</a></td>
                         <td>React.js + React-chart-2 package</td>
                     </tr>
+                    <tr>
+                        <td>Backend springboot + MongoDB</td>
+                        <td><a href="https://github.com/night2002/springboot-MongoDB">https://github.com/night2002/springboot-MongoDB</a></td>
+                        <td>Spring boot using maven package + MongoDB</td>
+                    </tr>
                 </table>
             </div>
             </div>
@@ -112,6 +119,7 @@ export default function Projects(){
             <Routes>
                 <Route path="Animewatchlist" element={<Animewatchlist/>} />
                 <Route path="BudgetTracker" element={<BudgetTracker/>} />
+                <Route path="springboot" element={<SpringBoot/>} />
             </Routes>
         </div>
         </>

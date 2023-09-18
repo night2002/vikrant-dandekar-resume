@@ -7,6 +7,7 @@ import Education from "./pages/Education"
 import Animewatchlist from "./pages/Animewatchlist"
 import BudgetTracker from "./pages/BudgetTracker"
 import Projects from "./pages/Projects"
+import SpringBoot from "./pages/springboot"
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/vikrant-dandekar-resume/academics/Projects" element={<Projects/>}>
             <Route path="/vikrant-dandekar-resume/academics/Projects/Animewatchlist" element={<Animewatchlist/>}/>
             <Route path="/vikrant-dandekar-resume/academics/Projects/BudgetTracker" element={<BudgetTracker/>}/>
+            <Route path="/vikrant-dandekar-resume/academics/Projects/springboot" element={<SpringBoot/>}/>
           </Route>
           <Route path="/vikrant-dandekar-resume/academics/education" element={<Education/>} />
         </Route>
